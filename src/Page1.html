@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>نرم افزار ناهمواری های ایران</title>
+    <link rel="icon" type="image/x-icon" href="../res/favicon.png">
+    <link rel="stylesheet" href="./Page1.css">
+</head>
+
+<body>
+    <div id="map-div">
+
+        <img style="width: 100%; height: 100%;" src="../res/iran-nahamvari.jpg" usemap="#image-map">
+
+        <map name="image-map">
+            <area alt="ارسباران(قره داغ)" title="ارسباران(قره داغ)" href="#"
+                coords="134,128,46,164,56,181,140,170" shape="poly" onclick="show_data('arasbaran')">
+            <area alt="سهند" title="سهند" href="#" coords="62,200,78,183,97,209" shape="poly" onclick="show_data('sahand')">
+            <area alt="سبلان" title="سبلان" href="#" coords="151,182,104,189,110,195,149,195,151,190"
+                shape="poly" onclick="show_data('sabalan')">
+            <area alt="تالش" title="تالش" href="#" coords="172,176,163,190,190,239,199,226" shape="poly" onclick="show_data('talesh')">
+            <area alt="البرز" title="البرز" href="#"
+                coords="236,215,214,242,336,306,438,250,346,252,317,253,287,243" shape="poly" onclick="show_data('alborz')">
+            <area alt="هزار مسجد" title="هزار مسجد" href="#" coords="571,182,675,239,658,244,568,200"
+                shape="poly" onclick="show_data('hezar_masjed')">
+            <area alt="بینالود" title="بینالود" href="#" coords="608,233,597,243,631,265,639,259" shape="poly" onclick="show_data('binalood')">
+            <area alt="جغتای" title="جغتای" href="#" coords="522,236,587,249,581,255,519,248" shape="poly" onclick="show_data('joghatai')">
+            <area alt="کوهسرخ" title="کوهسرخ" href="#"
+                coords="681,303,612,280,540,278,539,293,561,301,594,297,640,309,674,327,687,324" shape="poly" onclick="show_data('koohsorkh')">
+            <area alt="زاگرس" title="زاگرس" href="#"
+                coords="5,193,3,242,46,276,72,313,145,361,164,391,259,483,341,577,399,567,457,597,533,597,571,566"
+                shape="poly" onclick="show_data('zagros')">
+            <area alt="کوه های مرکزی" title="کوه های مرکزی" href="#"
+                coords="529,269,448,263,350,306,329,315,213,252,166,250,159,270,215,321,329,403,568,554,642,601"
+                shape="poly" onclick="show_data('markazi')">
+            <area alt="کوه های شرقی و جنوب شرقی" title="کوه های شرقی و جنوب شرقی" href="#"
+                coords="676,342,565,316,584,405,649,597,578,581,528,613,558,673,578,695,679,704,738,712,759,669,757,601"
+                shape="poly" onclick="show_data('sharghi_jonoobsharghi')">
+        </map>
+    </div>
+    <div id="info-div">
+    </div>
+</body>
+<script src="./Page1.js"></script>
+
+</html>

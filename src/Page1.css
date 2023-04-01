@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    direction: rtl;
+    background-color: rgb(197, 197, 58);
+}
+
+#map-div {
+    border-style: groove;
+    border-width: 1vw;
+    margin-left: 1vw;
+}
+
+#info-div {
+    overflow: auto;
+    border-style: solid;
+    border-width: 0.1vw;
+    max-width: 30vw;
+    max-height: calc(761px + 2vw);
+    height: fit-content;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3ch;
+}
