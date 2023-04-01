@@ -1,2 +1,2 @@
-# iran-nahamvari
-HTML-CSS-JS base mini application for Iran(Islamic Republic of) terrain irregularities
+# ناهمواری های ایران
+برنامه ای کوچک برای نمایش ناهمواری های ایران برپایه ی HTML و CSS و JS
